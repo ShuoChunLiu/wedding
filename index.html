@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/images/svg/couple-logo.png">
+
+    <title>Wedding Bells </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/sass/main.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/chinese.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+</head>
+
+<body>
+    <!-- ===== Main Banner ===== -->
+    <section class="main-banner" style="background-image: url(assets/images/couple/主畫面.jpg)" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="content">
+                        <div class="title">
+                            <h3 class="wow bounceIn" data-wow-delay="300ms">我們結婚了</h3>
+                            <h3 class="wow bounceIn" data-wow-delay="500ms">2024年12月15日12:00PM</h3>
+                            <h3 class="wow bounceIn" data-wow-delay="500ms">新天地崇德旗艦店</h3>
+                        </div>
+                        <div class="couple-name">
+                            <h1 class="wow bounceIn test" data-wow-delay="700ms">子翔</h1>
+                            <img class="wow bounceIn" data-wow-delay="900ms" src="assets/images/svg/heart.svg" alt="heart">
+                            <h1 class="wow bounceIn test" data-wow-delay="1100ms">碩純</h1>
+                        </div>
+                        <div class="text-overflow">
+                            <p class="wow bounceIn" data-wow-delay="1300ms">誠摯地邀請您來參加</span></p>
+                            <p class="wow bounceIn" data-wow-delay="1300ms">與我們共享喜悅</span></p>
+                            <h3 class="wow bounceIn" data-wow-delay="1500ms">Dec. 15<sup>th</sup>,2024</h3>
+                        </div>
+                        <audio controls>
+                            <source src="./assets/music/test.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="days"></div>
+        <div id="hours"></div>
+        <div id="minutes"></div>
+        <div id="seconds"></div>
+    </section>
+    <!-- ===== Main Banner End ===== -->
+
+    <!-- ===== Header ===== -->
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="main-navigation">
+                        <a class="rsvp-icon" href="#" data-toggle="modal" data-target=".bd-example-modal-lg">
+                            <img src="assets/images/svg/rsvp-icon.svg" alt="logo"></a>
+                        <a class="mob-logo" href="#home"><img src="assets/images/svg/logo.svg" alt="logo"></a>
+                        <div class="menu-toggle" onclick="myFunction(this)">
+                            <div class="bar-1"></div>
+                            <div class="bar-2"></div>
+                            <div class="bar-3"></div>
+                        </div>
+                        <div class="header-mob-wp">
+                            <div class="menu-menu-1-container">
+                                <ul class="menu">
+                                    <li class="test"><a href="#home">我們結婚了</a></li>
+                                    <li><a href="#couple">關於我們</a></li>
+                                    <li><a href="#our-story">那些小日子</a></li>
+                                    <li class="mb-none">
+                                        <a class="logo" href="#home">
+                                            <img src="assets/images/svg/logo.svg" alt="logo">
+                                        </a>
+                                    </li>
+                                    <li><a href="#RSVP">婚禮地點</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ===== Header End ===== -->
+
+    <!-- ===== about-couple ===== -->
+    <section class="about-couple" id="couple">
+        <div class="container">
+            <div class="couple">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-4">
+                        <div class="frame-groom wow bounceInLeft">
+                            <div class="groom-img" style="background-image: url(assets/images/couple/新郎.jpg)"></div>
+                        </div>
+                        <div class="couple-name">
+                            <div class="couple-content">
+                                <h3 class="wow fadeInLeft">子翔</h3>
+                                <img class="wow fadeInRight mr-5" src="./assets/images/svg/groom-dress.svg" alt="groom-dress">
+                            </div>
+                            <div class="text-overflow mr-5 mt-2 wow fadeInUp">
+                                <p>八年的相處</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="about-title">
+                            <h2 class="main-title wow zoomInLeft">關於我們</h2>
+                            <div class="couple-logo wow zoomInRight">
+                                <img src="./assets/images/svg/couple-logo.png" alt="couple-logo">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-column">
+                            <div class="frame-bride wow bounceInRight order-2 order-lg-1">
+                                <div class="bride-img" style="background-image: url(assets/images/couple/新娘.jpg)"></div>
+                            </div>
+                            <div class="couple-name order-1 order-lg-2">
+                                <div class="couple-content d-flex flex-column">
+                                    <div class="couple-content order-2 order-lg-1">
+                                        <div class="order-2 order-lg-1">
+                                            <img class="wow fadeInLeft ml-5 bride-dress" src="./assets/images/svg/bride-dress.svg" alt="bride-dress">
+                                        </div>
+                                        <div class="order-2 order-lg-2 mr-4">
+                                            <h3 class="wow fadeInRight text-right">碩純</h3>
+                                        </div>
+                                    </div>
+                                    <div class="text-overflow order-1 order-lg-2 ml-5 mt-2 wow fadeInUp">
+                                        <p>我們決定攜手走下去</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== about-couple end ===== -->
+
+    <!-- ===== our-story ===== -->
+    <section class="our-story" id="our-story">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <div class="our-story-title">
+                        <h2 class="main-title wow bounceIn">那些小日子</h2>
+                        <img class="content-logo" src="./assets/images/svg/content-logo.png" alt="content-logo">
+                        <p>當我們相遇</p>
+                        <img src="./assets/images/svg/our-story-heart.png" class="heart" alt="our-story-heart">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div class="warpper">
+                        <div class="about-story first-met">
+                            <div class="col-lg-4 text-lg-right text-center order-2 order-lg-2 wow bounceInLeft" data-wow-delay="300ms">
+                                <h3 class="sub-text">第一次相遇</h3>
+                            </div>
+                            <div class="col-lg-2 order-1 order-lg-2 wow bounceIn">
+                                <img src="assets/images/svg/first-met.svg" alt="First met">
+                            </div>
+                            <div class="col-lg-4 order-3 order-lg-3 wow bounceInRight" data-wow-delay="600ms">
+                                <p>January 10 2016</p>
+                            </div>
+                        </div>
+                        <div class="about-story first-dating">
+                            <div class="col-lg-4 text-lg-right text-center order-3 order-lg-2 wow bounceInLeft" data-wow-delay="300ms">
+                                <p>May 21 2016</p>
+                            </div>
+                            <div class="col-lg-2 order-1 order-lg-2 wow bounceIn">
+                                <img src="assets/images/svg/love-began.svg" alt="first-dating">
+                            </div>
+                            <div class="col-lg-4 order-2 order-lg-3 wow bounceInRight" data-wow-delay="600ms">
+                                <h3 class="sub-text">戀愛開始</h3>
+                            </div>
+                        </div>
+                        <div class="about-story Proposal">
+                            <div class="col-lg-4 text-lg-right text-center order-2 order-lg-2 wow bounceInLeft" data-wow-delay="300ms">
+                                <h3 class="sub-text">求婚那天</h3>
+                            </div>
+                            <div class="col-lg-2 order-1 order-lg-2 wow bounceIn">
+                                <img src="assets/images/svg/he-proposed.svg" alt="He proposed">
+                            </div>
+                            <div class="col-lg-4 order-3 order-lg-3 wow bounceInRight" data-wow-delay="600ms">
+                                <p>May 20 2022</p>
+                            </div>
+                        </div>
+                        <div class="about-story Wedding">
+                            <div class="col-lg-4 text-lg-right text-center order-3 order-lg-2 wow bounceInLeft" data-wow-delay="300ms">
+                                <p>December 15 2024</p>
+                            </div>
+                            <div class="col-lg-2 order-1 order-lg-2 wow bounceIn">
+                                <img src="assets/images/svg/ring.png" alt="ring">
+                            </div>
+                            <div class="col-lg-4 order-2 order-lg-3 wow bounceInRight" data-wow-delay="600ms">
+                                <h3 class="sub-text">婚禮</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== our-story end ===== -->
+
+    <!-- ===== rsvp-form ===== -->
+    <section class="rsvp-form" id="RSVP">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <div class="rsvp-form-title">
+                        <h2 class="main-title wow bounceIn">婚禮地點</h2><img class="content-logo" src="./assets/images/svg/content-logo.png" alt="content-logo">
+                        <p>Looking Forward to Your Arrival.</p>
+                        <p>—敬邀—</p>
+                        <p>2024年12月15日午宴12:00入席</p>
+                        <p>新天地崇德旗艦店</p>
+                        <p>台中市北屯區崇德五路345號</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rsvp">
+                <div class="row">
+                    <div class="col-lg-6 pr-0">
+                        <div class="rsvp-img wow bounceInLeft" style="background-image: url(assets/images/svg/rsvp.png)"></div>
+                    </div>
+                    <div class="col-lg-6 pl-0">
+                        <div class="rsvp-map wow bounceInRight"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.794685942981!2d120.6817506755311!3d24.178932272189453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346917c15c7763e9%3A0xa1cc7f52b77c3f88!2z5paw5aSp5Zyw5bSH5b635peX6Imm5bqX!5e0!3m2!1szh-TW!2stw!4v1718463968008!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                            <a href="https://maps.app.goo.gl/tUjspmRuSdLNbM5D9"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== rsvp-form end ===== -->
+
+    <!-- ===== thank-you ===== -->
+    <section class="thank-you" style="background-image: url(assets/images/couple/ty-bg.jpg)">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <div class="thank-you-title text-center">
+                        <h2 class="main-title wow bounceIn">Thank You</h2>
+                        <img class="content-logo" src="./assets/images/svg/content-logo.png" alt="content-logo">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <div class="thank-you-frame" style="background-image: url(assets/images/svg/thank-you-frame.svg)">
+                        <div class="thank-you-slider wow zoomIn">
+                            <div class="ty">
+                                <div class="ty-img" style="background-image: url(assets/images/couple/ty-images1.jpg)"></div>
+                            </div>
+                            <div class="ty">
+                                <div class="ty-img" style="background-image: url(assets/images/couple/ty-images2.jpg)"></div>
+                            </div>
+                            <div class="ty">
+                                <div class="ty-img" style="background-image: url(assets/images/couple/ty-images3.jpg)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== thank-you end ===== -->
+
+    <!-- ===== footer ===== -->
+    <footer>
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-6 text-left">
+                    <p>© Copyright 2020.All right reserved by <span>Wedding.</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ===== footer end ===== -->
+
+    <!-- ===== scrollTop ===== -->
+    <div id="stop" class="scrollTop">
+        <span><a href=""><img src="assets/images/svg/our-story-heart.png" alt="scrolltop"></a></span>
+    </div>
+    <!-- ===== scrollTop end ===== -->
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>

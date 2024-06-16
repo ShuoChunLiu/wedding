@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'ChenYuluoyan';
+    src: url('../fonts/ChenYuluoyan-Thin-Monospaced.ttf');
+}
+
+body,body * {
+    font-family: 'ChenYuluoyan' !important;
+}
