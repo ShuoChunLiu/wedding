@@ -334,7 +334,7 @@ a:hover {
 }
 
 nav.main-navigation {
-    /*padding-top: 10px;*/
+    padding-top: 10px;
 }
 
 .fixed-header {
@@ -906,7 +906,7 @@ nav.main-navigation {
 }
 
 .rsvp-form .rsvp .rsvp-img::before {
-    content: "";
+    /* content: "";
     display: block;
     position: absolute;
     top: 40%;
@@ -917,7 +917,7 @@ nav.main-navigation {
     background-size: cover;
     height: 100px;
     width: 110px;
-    cursor: pointer;
+    cursor: pointer; */
 }
 
 .rsvp-map {
