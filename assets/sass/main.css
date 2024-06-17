@@ -86,7 +86,7 @@ a:hover {
 
 .main-title {
     color: #C4A676;
-    font-size: 80px;
+    font-size: 75px;
     font-family: "Montez", cursive;
     letter-spacing: 10px;
 }
@@ -334,7 +334,7 @@ a:hover {
 }
 
 nav.main-navigation {
-    padding-top: 10px;
+    /*padding-top: 10px;*/
 }
 
 .fixed-header {
@@ -1404,6 +1404,7 @@ footer p span {
         -webkit-box-align: center;
         -ms-flex-align: center;
         align-items: center;
+        justify-content: center;
     }
 }
 
