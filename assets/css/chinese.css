@@ -4,6 +4,6 @@
     src: url('../fonts/ChenYuluoyan-Thin-Monospaced.ttf');
 }
 
-body,body * {
+body,body h1,h2,h3,p,a {
     font-family: 'ChenYuluoyan' !important;
 }
